@@ -12,3 +12,6 @@ Got help from :
 
 - https://github.com/Night-squad/libft-war-machine-v2019
 - https://github.com/alelievr/libft-unit-test
+
+Subject of the project:
+FR version - https://github.com/krozis/42_libft/blob/master/fr.subject.pdf
