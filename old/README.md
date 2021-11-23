@@ -15,9 +15,3 @@ Got help from :
 
 Subject of the project:
 FR version - https://github.com/krozis/42_libft/blob/master/fr.subject.pdf
-
------------------------------------------------------------------------------------
-
-23/11/2021
-
-Rework of the Libft (new norm and some changes)
