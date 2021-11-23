@@ -22,7 +22,7 @@ FR version - https://github.com/krozis/42_libft/blob/master/fr.subject.pdf
 
 Rework of the Libft (new norm and some changes)
 
-ft_split : old version needs to be changed for a new one
+ft_split : OK
 ft_striteri : new function added to the Libft
 
 BONUS PART : no addition (YET)
