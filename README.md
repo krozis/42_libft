@@ -21,3 +21,8 @@ FR version - https://github.com/krozis/42_libft/blob/master/fr.subject.pdf
 23/11/2021
 
 Rework of the Libft (new norm and some changes)
+
+ft_split : old version needs to be changed for a new one
+ft_striteri : new function added to the Libft
+
+BONUS PART : no addition (YET)
