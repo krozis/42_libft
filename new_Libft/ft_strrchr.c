@@ -6,7 +6,7 @@
 /*   By: stelie <stelie@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/04 18:04:27 by stelie            #+#    #+#             */
-/*   Updated: 2021/11/23 11:25:50 by stelie           ###   ########.fr       */
+/*   Updated: 2021/11/23 15:03:28 by stelie           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,9 +40,6 @@ static char	*sub_strrchr(const char *s, int c, size_t i, t_bool t)
 
 char	*ft_strrchr(const char *s, int c)
 {
-	char	*str;
-
-	str = NULL;
 	if (s[0] == '\0' && c == 0)
 		return ((char *)s);
 	if (c == 0 && s[0])

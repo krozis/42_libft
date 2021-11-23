@@ -6,7 +6,7 @@
 /*   By: stelie <stelie@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/08 17:44:28 by stelie            #+#    #+#             */
-/*   Updated: 2021/11/23 12:51:02 by stelie           ###   ########.fr       */
+/*   Updated: 2021/11/23 15:01:18 by stelie           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putnbr_fd(int n, int fd)
 	if (n == -2147483648)
 	{
 		ft_putchar_fd('-', fd);
-		ft_putstr_fd('214748364', fd);
+		ft_putstr_fd("214748364", fd);
 		n = 8;
 	}
 	else if (n < 0)

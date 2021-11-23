@@ -6,7 +6,7 @@
 /*   By: stelie <stelie@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 19:42:02 by stelie            #+#    #+#             */
-/*   Updated: 2021/11/23 11:35:10 by stelie           ###   ########.fr       */
+/*   Updated: 2021/11/23 15:01:53 by stelie           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	int		i;
 
 	if (!s1 && !s2)
-		return (EMPTY_STR);
+		return (ft_strdup(""));
 	else if (!s1)
 		return (ft_strdup(s2));
 	else if (!s2)

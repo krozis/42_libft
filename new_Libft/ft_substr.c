@@ -6,7 +6,7 @@
 /*   By: stelie <stelie@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 19:16:00 by stelie            #+#    #+#             */
-/*   Updated: 2021/11/23 11:34:01 by stelie           ###   ########.fr       */
+/*   Updated: 2021/11/23 15:02:09 by stelie           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (!s)
 		return (NULL);
 	if (start >= ft_strlen(s))
-		return (EMPTY_STR);
+		return (ft_strdup(""));
 	size = ft_strlen(s + start);
 	if (len > size)
 		len = size;
