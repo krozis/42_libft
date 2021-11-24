@@ -22,7 +22,9 @@ SRCS		=	ft_atoi.c\
 				ft_isdigit.c\
 				ft_memcmp.c\
 				ft_putchar_fd.c\
+				ft_split.c\
 				ft_strchr.c\
+				ft_striteri.c\
 				ft_strlcpy.c\
 				ft_strnstr.c\
 				ft_tolower.c\
@@ -34,6 +36,7 @@ SRCS		=	ft_atoi.c\
 				ft_strlen.c\
 				ft_strrchr.c\
 				ft_toupper.c
+
 
 B_SRCS		=	ft_lstnew.c\
 				ft_lstadd_front.c\
